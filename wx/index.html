@@ -51,13 +51,13 @@
                 removalDelay: 300,
                 mainClass: 'my-mfp-zoom-in'
             });
-            var products=["大白菜","马铃薯","红辣椒","食用大黄","西葫芦","黄瓜","蘑菇","芋头","油麦菜","黄花菜"];
+            var products=["迟菜心","大白菜","马铃薯","红辣椒","食用大黄","西葫芦","黄瓜","蘑菇","芋头","油麦菜","黄花菜"];
             //获取document对应的内容信息，初始化
             var url = location.href;
             var strs = url.split("#");
             if(strs.length>1){
                 var id = strs[1];
-                var productName = products[id+1];
+                var productName = products[id];
                 $("#productTitle").text(productName);
                 $("#productName").text(productName);
             }
