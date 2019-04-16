@@ -57,7 +57,7 @@
             var strs = url.split("#");
             if(strs.length>1){
                 var id = strs[1];
-                var productName = products[id];
+                var productName = products[id+1];
                 $("#productTitle").text(productName);
                 $("#productName").text(productName);
             }
@@ -136,7 +136,7 @@
 
             <!--/welcome-->
             <div class="w3agile welcome">
-                <h3 class="w3ls-title" id="productTitle">迟菜心</h3>
+                <h3 class="w3ls-title"><span id="productTitle">迟菜心</span>详情</h3>
                 <div class="b-bottom">
                     <div class="col-md-3"></div>
                     <div class="col-md-6 banner_bottom_left">
@@ -146,7 +146,7 @@
                                 <th class="th-line" colspan="2" >产品名称：
                                     <span id="productName" style="color: #1da1f2">迟菜心</span>
                                 </th>
-                                <th class="th-line" colspan="5">执行标准：岭南精品技术规范 迟菜心《T/GQDA  xxx-2019》</th>
+                                <th class="th-line" colspan="5">执行标准：岭南精品技术规范《T/GQDA  xxx-2019》</th>
                             </tr>
                             </thead>
                             <tbody>
